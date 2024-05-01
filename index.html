@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Golden</title>
+	<style>
+	 
+*{
+	padding: 0;
+	margin: 0;
+}
+body{
+	font-family: Arial, sans-serif;
+	color: #fff;
+}
+div {
+	box-sizing: border-box;
+}
+header{
+	background: url("images/first-bg.jpg") no-repeat center top / cover;
+	height: 100vh;
+}
+.container{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: space-around;
+	align-items: stretch;
+	align-content: stretch;
+	flex-flow: row wrap;
+	padding-top: 45px;
+}
+.logo{
+	max-width: 	79px;
+	min-height: 28px;
+	height: auto;
+	margin-bottom: 50px;
+}
+nav{
+	justify-content: center;
+	height: auto;
+}
+.menu{
+	display: flex;
+	justify-content: space-around;
+	max-width: 500px;	
+	flex-flow: row wrap;
+	flex:1 1 150px;
+}
+li{
+	list-style-type:none;
+	margin-right: 15px;
+}
+a{
+	text-decoration: none;
+	color: #fff;
+	text-transform: uppercase;
+}
+.titles{
+	width: 100%;	
+	margin-top: 100px;
+	text-align: center;
+	text-transform: uppercase;	
+	flex-direction: column;
+}
+.titles h2{	
+	font-size: 3vw;
+}
+.titles h1{
+
+	font-size: 5vw;
+}
+.button{
+	text-align: center;
+	margin-top: 50px;
+	padding-top:15px;
+	width: 200px;	
+	height: 50px;
+	background-color: #FED136;
+	border-radius: 5px;
+	color: #403D3C;
+	text-transform: uppercase;
+}
+.button{
+	cursor: pointer;
+}
+
+.item{
+	color:#777777;
+	text-align: center;
+	width:300px;
+	margin-top: 50px;
+
+}
+.item h1{
+	color:#222222;
+	margin:10px;
+	font-size: 20px;
+}
+.serv h1{
+	font-size:40px;
+	text-transform: uppercase;
+}
+.serv{
+	width: 100%;
+	height: 150px;
+}
+.mode img{
+	width: 183px;
+	height: 183px;
+}
+.mode div{
+	width: 200px;
+}
+.mode{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	flex:1 1 100px;
+	text-align: center;
+	flex-flow: row wrap;
+	height: 150px;
+	flex-flow: row wrap;
+	justify-content: center;
+	flex:1 1 100%;
+}
+
+.copyright{
+	width:100%;
+	margin:50px 0 25px 0;
+	text-align: center;
+	color:#777;
+}
+		
+		
+	</style>
+</head>
+<body>
+	<header>
+		<div class="container">
+			<img src="C:\Users\hp15a\OneDrive\Desktop\cssstyle\images\logo.png" alt="Golden" class="logo">
+			<nav>
+				<ul class="menu">
+					<li><a href="#">Home</a></li>
+					<li><a href="#">Services</a></li>
+					<li><a href="#">Portfolio</a></li>
+					<li><a href="#">About</a></li>
+					<li><a href="#">Contact</a></li>
+				</ul>
+			</nav>
+			<div class="titles">
+				<h2>Welcome to our studio!</h2>
+				<h1>It's nice to meet you</h1>
+			</div>
+			<div class="button">
+				<span>Tell me more</span>
+			</div>
+		</div>
+	</header>
+	<section class="services">
+		<div class="container">
+			<div class="item serv">
+				<h1>Services</h1>
+				<p>Lorem ipsum dolor sit amet, consectetur.</p>
+			</div>
+			<div class="item">
+				<img src="C:\Users\hp15a\OneDrive\Desktop\cssstyle\images\icon1.png" alt="E-Commerce">
+				<h1>E-Commerce</h1>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit error maxime mollitia fuga quis amet perspiciatis! Doloribus, explicabo.</p>
+			</div>
+			<div class="item">
+				<img src="C:\Users\hp15a\OneDrive\Desktop\cssstyle\images\icon2.png" alt="Responsive Web">
+				<h1>Responsive Web</h1>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit error maxime mollitia fuga quis amet perspiciatis! Doloribus, explicabo.</p>
+			</div>
+			<div class="item">
+				<img src="C:\Users\hp15a\OneDrive\Desktop\cssstyle\images\icon3.png" alt="Web Security">
+				<h1>Web Security</h1>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit error maxime mollitia fuga quis amet perspiciatis! Doloribus, explicabo.</p>
+			</div>
+		</div>
+	</section>
+	<section class="portfolio">
+		<div class="container">
+			<div class="item serv">
+				<h1>Our portfolio</h1>
+				<p>Lorem ipsum dolor sit amet, consectetur.</p>
+			</div>
+			<div class="item">
+				<img src="C:\Users\hp15a\OneDrive\Desktop\cssstyle\images\img1.jpg" alt="ebony&ivory">
+			</div>
+			<div class="item">
+				<img src="C:\Users\hp15a\OneDrive\Desktop\cssstyle\images\img2.jpg" alt="your logo">
+			</div>
+			<div class="item">
+				<img src="C:\Users\hp15a\OneDrive\Desktop\cssstyle\images\img3.jpg" alt="picture">
+			</div>
+		</div>
+	</section>
+	<section class="about_us">
+		<div class="container">
+			<div class="item serv">
+				<img src="" alt="">
+				<h1>About Us</h1>
+				<p>Lorem ipsum dolor sit amet, consectetur.</p>
+				
+			</div>
+			<div class="item mode">
+				<img src="C:\Users\hp15a\OneDrive\Desktop\cssstyle\images\about1.jpg" alt="">
+				<div>
+					<h1>Unde, ab.</h1>
+					<p>Neque nisi, libero saepe! Perferendis quisquam deleniti, quia culpa. Quia! Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+				</div>
+			</div>
+			<div class="item mode">
+				
+				<div>
+					<h1>Unde, beatae.</h1>
+					<p>Reiciendis quae ab nisi eos eveniet doloremque numquam nulla fuga. Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+				</div>
+				<img src="C:\Users\hp15a\OneDrive\Desktop\cssstyle\images\about2.jpg" alt="">
+			</div>
+			<div class="item mode">
+				<img src="C:\Users\hp15a\OneDrive\Desktop\cssstyle\images\about3.jpg" alt="">
+				<div>
+					<h1>Quia, vitae.</h1>
+					<p>Maxime maiores blanditiis minima aperiam earum modi minus dolores unde! Lorem ipsum dolor sit.</p>
+				</div>
+			</div>
+			<div class="item mode">
+				
+				<div>
+					<h1>Quia, vitae.</h1>
+					<p>Maxime maiores blanditiis minima aperiam earum modi minus dolores undelorem6 Lorem ipsum dolor sit amet.</p>
+				</div>
+				<img src="C:\Users\hp15a\OneDrive\Desktop\cssstyle\images\about4.jpg" alt="">
+			</div>
+		</div>
+	</section>
+	<footer>	
+		<div class="container">
+			<div class="copyright">©Copyright 17 july 2018</div>
+		</div>
+	</footer>
+		
+</body>
+</html>
